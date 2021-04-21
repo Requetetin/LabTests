@@ -250,6 +250,11 @@ const Calculator = () => {
     alert('este boton esta aqui para que se viera estetico y simetrico')
   }
 
+  const doEquals = () => {
+    doOp()
+    setOp('')
+  }
+
   return (
     <div className="grid-container">
       <Input value={current} onChange={handleChange} />
@@ -272,7 +277,7 @@ const Calculator = () => {
       <Button title="+/-" className="number" onClick={changeSign} />
       <Button title="0" className="number" onClick={zero} />
       <Button title="." className="number" onClick={dot} />
-      <Button title="=" className="equals" onClick={doOp} />
+      <Button title="=" className="equals" onClick={doEquals} />
     </div>
   )
 }
