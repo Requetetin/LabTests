@@ -1,0 +1,10 @@
+.input{
+  height: 50px;
+  width: 200px;
+  background-color: #333;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}

@@ -1,0 +1,35 @@
+.number {
+  color: white;
+  background-color: #353535;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.operator {
+  color: #529B52;
+  background-color: #353535;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.equals {
+  color: white;
+  background-color: #0F9B0F;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.empty {
+  color: #FF6236;
+  background-color: #353535;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 50%;
+}
